@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/reports",
+      "icon": "menu-icon tf-icons bx bxs-report",
+      "name": "Reportes",
+      "slug": "pages-reports"
+    },
+    {
+      "url": "/mensajes",
+      "icon": "menu-icon tf-icons bx  bx-message-dots bx-tada",
+      "name": "Mensajes ",
+      "slug": "pages-mensajes"
+    },
+    {
+      "url": "/users",
+      "icon": "menu-icon tf-icons bx bx-user-pin",
+      "name": "Usuarios",
+      "slug": "pages-users"
+    },
+    {
+      "url": "/manual",
+      "icon": "menu-icon tf-icons bx bxs-file-pdf",
+      "name": "Manual",
+      "slug": "pages-manual"
+    }
+  ]
+}
