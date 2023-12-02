@@ -13,7 +13,7 @@
       "slug": "pages-reports"
     },
     {
-      "url": "/mensajes",
+      "url": "/messages",
       "icon": "menu-icon tf-icons bx  bx-message-dots bx-tada",
       "name": "Mensajes ",
       "slug": "pages-mensajes"

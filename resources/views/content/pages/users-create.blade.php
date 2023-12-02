@@ -10,6 +10,15 @@ $configData = Helper::appClasses();
 <h4>Creando un Usuario Nuevo</h4>
 
 <div class="row">
+  @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
   <div class="col-lg-12">
     <div class="card mb-4">
       <div class="card-header d-flex justify-content-between align-items-center">
@@ -20,19 +29,19 @@ $configData = Helper::appClasses();
           @csrf
           <div class="mb-3">
             <label class="form-label" for="basic-default-fullname">Nombre Completo</label>
-            <input type="text" name="name" class="form-control" id="basic-default-fullname" placeholder="John Doe" />
+            <input type="text" name="name" class="form-control" id="basic-default-fullname" placeholder="John Doe"  required/>
           </div>
           <div class="mb-3">
             <label class="form-label" for="basic-default-email">Email</label>
             <div class="input-group input-group-merge">
-              <input type="text" name="email" id="basic-default-email" class="form-control" placeholder="john.doe@example.com" aria-label="john.doe@example.com" aria-describedby="basic-default-email2" />
+              <input type="text" name="email" id="basic-default-email" class="form-control" placeholder="john.doe@example.com" aria-label="john.doe@example.com" aria-describedby="basic-default-email2" required/>
               <span class="input-group-text" id="basic-default-email2"></span>
             </div>
             <div class="form-text"> Puedes usar Números y letras  </div>
           </div>
           <div class="mb-3">
             <label class="form-label" for="basic-default-phone">Contraseña</label>
-            <input type="password" name="password" id="basic-default-password" class="form-control" placeholder="***********" />
+            <input type="password" name="password" id="basic-default-password" class="form-control" placeholder="***********" required/>
           </div>
           <button type="submit" class="btn btn-primary">Guardar</button>
         </form>

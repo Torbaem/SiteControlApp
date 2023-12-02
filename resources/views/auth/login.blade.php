@@ -18,12 +18,11 @@ $customizerHidden = 'customizer-hide';
     <!-- /Left Text -->
     <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center">
       <div class="flex-row text-center mx-auto">
-        {{-- <img src="{{asset('assets/img/pages/login-'.$configData['style'].'.png')}}" alt="Auth Cover Bg color" width="520" class="img-fluid authentication-cover-img" data-app-light-img="pages/login-light.png" data-app-dark-img="pages/login-dark.png"> --}}
+        <img src="{{asset('assets/img/pages/Teclogo.png')}}"  width="520"  ><br><br>
         <div class="mx-auto">
-          <h3>Admin template 🥳</h3>
+          <h3>Campus Ciudad Valles</h3><br><br>
           <p>
-            Perfectly suited for all level of developers which helps you to <br> kick start your next big projects & Applications.
-          </p>
+            Aplicacion Web creada para la materia de DAW</p>
         </div>
       </div>
     </div>
